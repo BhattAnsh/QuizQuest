@@ -1,0 +1,23 @@
+.heroPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.heroPageContainer section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+}
+.heroImage{
+    width: 500px;
+}
+.upperText, .lowerText{
+    color: white;
+    font-size: 100px;
+    font-weight: 800;
+}

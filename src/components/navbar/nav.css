@@ -1,13 +1,13 @@
 nav{
     display: flex;
     flex-direction: row;
-    backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(7px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 2px 25px;
-    position: absolute;
+    position: fixed;
     top: 40px;
     left: 18%;
     z-index: 1;
@@ -29,4 +29,18 @@ nav{
 }
 .MuiDrawer-paperAnchorLeft li:hover{
     background-color: #1B1A55;
+}
+.MuiButton-text{
+    min-width: 40px !important;
+    width: 40px !important;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .logo{
+        font-size:16px;
+    }
+    nav{
+        width: 80vw ;
+        left: 3vw;
+    }
 }
