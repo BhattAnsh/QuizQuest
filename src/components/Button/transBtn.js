@@ -3,12 +3,12 @@ import Button from '@mui/material/Button';
 import styled from '@emotion/styled';
 function BtnTr(props) {
     let light = "#9290C3";
-    let dark = "#9290C3";
+    let dark = "#535C91";
     const CustomButton = styled(Button)({
-        color:light,
+        color:dark,
 
         ":hover":{
-            color:dark,
+            color:light,
         }
     })
   return (
