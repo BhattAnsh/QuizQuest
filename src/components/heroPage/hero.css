@@ -11,13 +11,55 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 60vw;
+    width: 70vw;
 }
 .heroImage{
-    width: 500px;
+    width: 600px;
 }
 .upperText, .lowerText{
     color: white;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 800;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.heroAbout  p{
+    color: white;
+    width: 500px;
+}
+.aboutPara{
+    font-weight: 200;
+}
+
+@media screen and (max-width:600px){
+    .heroPageContainer section{
+        flex-direction: column-reverse;
+    }
+    .heroImage{
+        display: none;
+        width: 300px;
+    }
+    .upperText, .lowerText{
+        font-size: 60px;
+    }
+    .button-container{
+        flex-direction: row;
+        row-gap: 20px;
+    }
+    .hero-text{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .heroAbout p{
+        width: 300px;
+    }
+
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import profile from "../../media/profile.png";
-// import BtnGrps from '../Button/buttonGroup'
 import BtnTr from '../Button/transBtn';
 import './nav.css';
 import Box from '@mui/material/Box';
