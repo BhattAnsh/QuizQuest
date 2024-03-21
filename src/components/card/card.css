@@ -1,4 +1,4 @@
-@import 'node_modules/scroll-carousel/dist/scroll.carousel.min.css';
+
 .card-main-body{
     backdrop-filter: blur(7px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
@@ -11,6 +11,7 @@
     column-gap: 20px;
     align-items: center;
     justify-content: center;
+    width: 700px;
 
 }
 .card-heading{
